@@ -43,6 +43,7 @@ html {
 
 .menu li {
   list-style: none;
+  /* background-color: red; */
 }
 
 .menu li a {
@@ -50,6 +51,7 @@ html {
   font-size: 24px;
   font-weight: 400;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .next1 {
@@ -136,6 +138,14 @@ html {
   padding: 15px 25px;
   border-radius: 35px;
   border: 2px solid black;
+  /* transition: all; */
+  transition-duration: 500ms;
+}
+
+.btngroup button:hover {
+  transform: scale(105%);
+  transition: all;
+  transition-duration: 500ms;
 }
 
 .btngroup button:nth-child(2) {
@@ -155,6 +165,11 @@ html {
 
 .giticon img {
   height: 30px;
+  border-radius: 50%;
+}
+
+.giticon img:hover {
+  box-shadow: 0px 5px 25px rgb(0, 0, 0);
 }
 
 .giticon {
