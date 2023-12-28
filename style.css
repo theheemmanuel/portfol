@@ -239,20 +239,20 @@ html {
 }
 
 .next2 {
-  margin: 0 160px;
+  padding: 0 10%;
   position: relative;
 }
 
 .arrowdown {
   position: absolute;
   width: 30px;
-  right: -150px;
+  right: 0%;
   bottom: -50px;
   cursor: pointer;
 }
 
 .next3 {
-  padding: 50px 150px;
+  padding: 50px 10%;
 }
 
 .next3 .next1b {
@@ -265,7 +265,8 @@ html {
 }
 
 .next4 {
-  width: 100%;
+  flex: 1;
+  min-width: 290px;
   padding: 50px 0;
   border: 2px solid black;
   border-radius: 50px;
@@ -275,7 +276,8 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  /* align-items: center; */
+
+  padding: 0 5%;
   column-gap: 70px;
   row-gap: 20px;
 }
@@ -283,12 +285,14 @@ html {
 .article {
   display: flex;
   text-align: left;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  gap: 20px;
   align-items: center;
   width: 180px;
 }
 
 .next3a {
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -317,18 +321,21 @@ html {
 }
 
 .projects {
-  padding: 50px 150px;
+  padding: 50px 10%;
 }
 
 .projectall {
   margin-top: 100px;
   display: flex;
-  /* flex-wrap: wrap; */
+
+  flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
 }
 
 .projectpic {
+  /* min-width: 200px; */
+  width: 400px;
   border: 2px solid rgb(183, 179, 179);
   border-radius: 25px;
   padding: 30px;
@@ -343,10 +350,11 @@ html {
 }
 
 .projectpic button {
-  width: 150px;
-  height: 50px;
+  /* width: 150px; */
+  /* height: 50px; */
+  padding: 4px 15px;
   border-radius: 25px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 500;
   border: 2px solid rgb(183, 179, 179);
   cursor: pointer;
