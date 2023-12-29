@@ -63,6 +63,7 @@ html {
   gap: 100px;
   align-items: center;
   text-align: center;
+  /* min-height: 100vh; */
 }
 
 .next1b {
