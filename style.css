@@ -43,28 +43,6 @@ html {
 
 .menu li {
   list-style: none;
-  /* background-color: red; */
-}
-
-.menu.active {
-  padding-top: 200px;
-  padding-bottom: 50px;
-  /* height: 500px; */
-  width: 50%;
-  /* gap: 0; */
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-}
-
-.menu.active li {
-  background-color: black;
-  color: white;
-}
-
-.iconic.active {
-  /* opacity: 0; */
-  display: none;
 }
 
 .menu li a {
@@ -72,7 +50,33 @@ html {
   font-size: 24px;
   font-weight: 400;
   cursor: pointer;
+  /* background-color: transparent; */
+}
+
+.menu1 {
+  padding-top: 200px;
+  display: none;
+  gap: 25px;
+  flex-direction: column;
+  width: 100%;
+  background-color: black;
+  /* border-radius: 20px; */
+}
+
+.menu1.active {
+  display: flex;
+}
+
+.menu1 li {
+  list-style: none;
+  font-size: 24px;
+  background-color: black;
+}
+
+.menu1 li a {
   background-color: transparent;
+  color: white;
+  padding: 15px;
 }
 
 .next1 {
@@ -238,7 +242,7 @@ html {
 
 .next2aimg img {
   width: 400px;
-  height: 400px;
+  /* height: 400px; */
   border-radius: 25px;
 }
 

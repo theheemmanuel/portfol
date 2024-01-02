@@ -1,6 +1,6 @@
-const icon = document.querySelector(".menu");
+const icon = document.querySelector(".menu1");
 const oladiran = document.querySelector(".iconic");
-const emmy = document.querySelectorAll(".menu li a");
+const emmy = document.querySelectorAll(".menu1 li a");
 
 oladiran.addEventListener("click", () => {
   icon.classList.toggle("active");
