@@ -46,6 +46,27 @@ html {
   /* background-color: red; */
 }
 
+.menu.active {
+  padding-top: 200px;
+  padding-bottom: 50px;
+  /* height: 500px; */
+  width: 50%;
+  /* gap: 0; */
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu.active li {
+  background-color: black;
+  color: white;
+}
+
+.iconic.active {
+  /* opacity: 0; */
+  display: none;
+}
+
 .menu li a {
   text-decoration: none;
   font-size: 24px;

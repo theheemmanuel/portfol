@@ -1,13 +1,15 @@
-// const ola = document.querySelector(".plus");
-// const oladiran = document.querySelector(".men");
-// const emmy = document.querySelectorAll(".men li");
+const icon = document.querySelector(".menu");
+const oladiran = document.querySelector(".iconic");
+const emmy = document.querySelectorAll(".menu li a");
 
-// ola.addEventListener("click", () => {
-//   oladiran.classList.toggle("active");
-// });
+oladiran.addEventListener("click", () => {
+  icon.classList.toggle("active");
+  oladiran.classList.toggle("active");
+});
 
-// emmy.forEach((item) =>
-//   item.addEventListener("click", () => {
-//     oladiran.classList.toggle("active");
-//   })
-// );
+emmy.forEach((item) =>
+  item.addEventListener("click", () => {
+    icon.classList.toggle("active");
+    oladiran.classList.toggle("active");
+  })
+);
