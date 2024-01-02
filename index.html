@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <header class="navbar">
       <h1><a href="#home">Heemmanuel</a></h1>
-      <div class="menu">
+      <div class="menu max-md:hidden">
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -20,7 +21,7 @@
     <section class="next1">
       <div class="next1b">
         <p>Hello, I am</p>
-        <h1>Heemmanuel</h1>
+        <h1 class="">Heemmanuel</h1>
         <h3>Frontend Developer</h3>
         <div class="btngroup">
           <button>
@@ -231,11 +232,19 @@
     </section>
 
     <footer>
-      <div class="menu">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <div class="flex gap-2">
+        <li class="list-none text-[20px] font-semibold">
+          <a href="#about">About</a>
+        </li>
+        <li class="list-none text-[20px] font-semibold">
+          <a href="#experience">Experience</a>
+        </li>
+        <li class="list-none text-[20px] font-semibold">
+          <a href="#projects">Projects</a>
+        </li>
+        <li class="list-none text-[20px] font-semibold">
+          <a href="#contact">Contact</a>
+        </li>
       </div>
 
       <h3>Copyright &copy 2023 Heemmanuel. All Rights Reserved</h3>
